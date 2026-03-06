@@ -1,204 +1,484 @@
 <!DOCTYPE html>
-<html oncontextmenu="return false" onselectstart="return false" ondragstart="return false" lang="en">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WASI-TECH-BOTZ</title>
-    <!-- #CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- #box icon -->
-    
-  <link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-  <!--remox icon-->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WASI-MD-V7 | Advanced WhatsApp Bot</title>
+  <meta name="description"
+    content="WASI-MD-V7 — The most powerful open-source WhatsApp bot built with Baileys & Node.js. Deploy in seconds on Heroku, Railway, Koyeb, Render and more." />
+  <meta property="og:title" content="WASI-MD-V7 | Advanced WhatsApp Bot" />
+  <meta property="og:description"
+    content="Deploy the most powerful WhatsApp bot now — free, open-source, and feature-packed." />
+  <meta property="og:image" content="https://github.com/Itxxwasi.png" />
+  <link rel="icon" href="https://github.com/Itxxwasi.png" type="image/png" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
 
-<header>
-  <a href="https://github.com/Itxxwasi.png?length=50width=50" class="logo">WA<span>SI</span></a>
-  <div class="bx bx-menu" id="menu-icon"></div>
-  <ul class="navlist">
-    <li><a href="#home">Home</a></li>
-    <li><a href="https://heroku.com/deploy?template=https://github.com/Itxxwasi/WASI-MD-V2" target="_blank">Bot Web</a></li>
-    <li><a href="https://session-generator-6r7k.onrender.com">Pair Code</a></li>
-    <li><a href="https://session-generator-6r7k.onrender.com">Qr1 Scan</a></li>
-     <li><a href="https://session-generator-6r7k.onrender.com">Qr2 Scan</a></li>
+  <!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+  <header id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <img src="https://github.com/Itxxwasi.png" alt="WASI" />
+        WA<span>SI</span>-MD
+      </a>
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#deploy" class="nav__link">Deploy</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="https://whatsapp.com/channel/120363352258980163" target="_blank" class="btn btn--outline">
+          <i class="ri-megaphone-line"></i> Channel
+        </a>
+        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank" class="btn btn--primary">
+          <i class="ri-github-fill"></i> GitHub
+        </a>
+      </div>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Menu">
+        <i class="ri-menu-3-line"></i>
+      </button>
+    </nav>
+  </header>
 
-  </ul>
-<div class="top-btnn">
-  <a href="https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j" class="h-btn">WaChannel</a>
-</div>
-
-</header>
-<br>
-<br>
-<br>
-<br>
-<br>
-<section class="hero" id="home">
-<div class="main-content" data-aos="fade-in">
-  <h4>Hi, Buddy👋</h4>
-  <h1>I'm <span>WASI-MD</span></h1>
-  <p>A MultiDevice Whatsapp Userbot Made with Baileys & NodeJs, Developed and Managed by wasi ser.</p>
-  <p>Scroll Down For <b>Deployment Methods</b> </p>
-  <p>View My <b>Bot Web</b> Below</p>
-  <p>Qr Code1 and Qr Code2 Restored and Fully Working.</p>
-<div class="social">
-  <a href="https://www.facebook.com/chwaseem11bc?mibextid=ZbWKwL" target="_blank"><i class="ri-facebook-fill"></i></a>
-  <a href="https://www.instagram.com/itx_mee_wasi" target="_blank"><i class="ri-instagram-fill"></i></a>
-  <a href="https://wa.me/+923192173398" target="_blank"><i class="ri-whatsapp-fill"></i></a>
-  <a href="https://www.youtube.com/@wasitech1" target="_blank"><i class="ri-youtube-fill"></i></a>
-</div>
-<div class="main-btn">
-  <a href="https://github.com/Itxxwasi/UNIQUE-MD" class="btn" target="_blank">UNIQUE-MD</a>   
-<a href="https://github.com/Itxxwasi/WASI-MD-V2" class="btn" target="_blank">WASI-MD-V2</a>
-
-</div>
-<br>
-<div class="main-btn">
-  <a href="https://wasiqr-207a1ba9b683.herokuapp.com/" class="btn" target="_blank">Qr Code1</a>   
-<a href="https://pair-qr-wasi-md.onrender.com" class="btn" target="_blank">Qr Code2</a>
-
-</div>
-<br>
-<div class="main-btn">
-  <a href="https://pair-qr-wasi-md.onrender.com/pair" class="btn" target="_blank">Pair Code</a> 
-  <a href="https://pair-qr-wasi-md.onrender.com" class="btn" target="_blank">Heroku</a>
-
-
-</div>
-</section>
-
-<section class="services" id="services">
-  <div class="center-text" data-aos="fade-down">
-    <h2>Deploy <span>WASI-TECH</span> </h2>
-    <br>
-    <h4>Ensure You've<b>Forked</b> the Repo First Without Editing the Repo Name.</h4>
-    <h4>Then Proceed with Your GitHub Username</h4>
-  </div>
-  <div class="services-content" data-aos="zoom-in-up">
-
-    <div class="box">
-
-      <img src="./img/heroku.png" alt="">
-      <h3>Heroku Deploy</h3>
-      <p>Finding a best way to deploy our bot? No worry cause Heroku is here to help you!</p>
-     <a href="https://heroku.com/deploy?template=https://github.com/Itxxwasi/WASI-MD-V2" target="_blank">Deploy Now
- <i class="ri-arrow-right-line"></i>
-</a>
+  <!-- ═══════════════════════ HERO ═══════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__orb hero__orb--1"></div>
+      <div class="hero__orb hero__orb--2"></div>
+      <div class="hero__orb hero__orb--3"></div>
+      <div class="hero__grid"></div>
     </div>
-<div class="box">
-
-      <img src="./img/railway.png" alt="">
-      <h3>Railway Deploy</h3>
-      <p>It seems like you're a pro and knows that which is the best way to deploy..huh? why waiting then deploy on Railway!</p>
-      <a href="https://railway.app/template/tM2McB?referralCode=v7Xehd" target="_blank">Deploy Now
- <i class="ri-arrow-right-line"></i>
-</a>
-</div>
-    <div class="box">
-
-      <img src="./img/koyeb.png" alt="">
-      <h3>Koyeb Deploy</h3>
-      <p>No longer interest in Heroku? Try Koyeb, It's free and give you better experience!</p>
-      <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/Itxxwasi/WASI-MD-V2&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=254762016957&env[MONGODB_URI]&&env[OWNER_NAME]=%C9%A2%C9%AA%D2%93%E1%B4%9B%E1%B4%87%E1%B4%85%20%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C&env[KOYEB_API]&env[PREFIX]=.&env[WAPRESENCE]&env[AUTO_READ_STATUS]=true&env[DISABLE_PM]=false&env[PACK_AUTHER]=whatsapp+bot&env[PACK_NAME]=%C9%A2%C9%AA%D2%93%E1%B4%9B%E1%B4%87%E1%B4%85%20%E1%B4%9B%E1%B4%87%E1%B4%84%CA%9C&env[STYLE]=0&env[MODE]=private&env[READ_MESSAGE]=false&env[THEME]=Gifted&env[WARN_COUNT]=3&env[BLOCK_JID]=null&env[TIME_ZONE]=Africa/Nairobi&name=gifted-tech&env[KOYEB_NAME]=gifted-md&env[SUDO]=null&env[THUMB_IMAGE]=https://telegra.ph/file/54efddccf41281ad7ec51.jpg" target="_blank">Deploy Now
- <i class="ri-arrow-right-line"></i>
-</a>
+    <div class="container hero__content">
+      <div class="hero__badge">
+        <i class="ri-checkbox-circle-fill"></i>
+        Version 7.0 — Now Live
+      </div>
+      <h1 class="hero__title">
+        The Most Powerful<br />
+        <span class="gradient-text">WhatsApp Bot</span><br />
+        Ever Built
+      </h1>
+      <p class="hero__desc">
+        WASI-MD-V7 is a next-generation multi-device WhatsApp bot powered by Baileys &amp; Node.js.
+        Feature-rich, open-source, and deployable in seconds on any cloud platform.
+      </p>
+      <div class="hero__actions">
+        <a href="#deploy" class="btn btn--primary btn--lg">
+          <i class="ri-rocket-line"></i> Deploy Now
+        </a>
+        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank" class="btn btn--glass btn--lg">
+          <i class="ri-github-fill"></i> View Source
+        </a>
+        <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank" class="btn btn--glass btn--lg">
+          <i class="ri-whatsapp-fill"></i> Join Group
+        </a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">120+</span>
+          <span class="stat__label">Commands</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">5</span>
+          <span class="stat__label">Deploy Platforms</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">v7.0</span>
+          <span class="stat__label">Latest Version</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <span class="stat__num">Free</span>
+          <span class="stat__label">Open Source</span>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+    <div class="hero__scroll">
+      <a href="#features"><i class="ri-arrow-down-line"></i></a>
+    </div>
+  </section>
 
-<section class="about" id="about">
-  <div class="about-img" data-aos="zoom-in-down">
-    <img src="https://github.com/Itxxwasi.png?length=50width=50" >
-  </div>
-<div class="about-text" data-aos="zoom-in-up">
-  <h2>I am a Self Learned <span>Full-Stack</span><br>
-  Developer </h2>
-  <div class="exp-area">
-    <p class="exp">
-      Experience 
-      <span>6 months</span>
-    </p>
-    
-    <p class="exp">
-      Specifications:
-      <span>Developer, Web Designer, Website Developer, Graphics Designer, Software(App) Developer</span>
-    </p>
-    <p class="exp">
-      Location: 
-      <span>ISLAMABAD, PAKISTAN</span>
-    </p>
-    
-    <p class="exp">
-      Email: 
-      <span>wasixml@gmail.com</span>
-    </p>
-    
-    <p class="exp">
-      Phone: 
-      <span>+923192173398</span>
-    </p>
-  </div>
-  <a href="https://github.com/Itxxwasi" class="btn" target="_blank">Bot Web</a>
-</div>
+  <!-- ═══════════════════════ FEATURES ═══════════════════════ -->
+  <section class="features section" id="features">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">What's Inside</span>
+        <h2 class="section__title">Packed With <span class="gradient-text">Features</span></h2>
+        <p class="section__desc">Everything you need for a powerful WhatsApp bot, all in one package.</p>
+      </div>
+      <div class="features__grid">
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-ai-generate"></i></div>
+          <h3>AI Integration</h3>
+          <p>Powered by Google Gemini AI — ask anything, generate images, translate and more.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-video-download-line"></i></div>
+          <h3>Media Downloader</h3>
+          <p>Download from YouTube, TikTok, Instagram, Facebook, Pinterest and dozens more.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-group-line"></i></div>
+          <h3>Group Management</h3>
+          <p>Anti-link, anti-delete, welcome/goodbye, tag all, promote, demote and more.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-shield-check-line"></i></div>
+          <h3>Guardian System</h3>
+          <p>Anti-delete, anti-edit, anti-call, anti-bot and full message protection built-in.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-forward-end-line"></i></div>
+          <h3>Auto-Forward</h3>
+          <p>Smart auto-forward with custom captions, media filtering and queue management.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-database-2-line"></i></div>
+          <h3>MongoDB Powered</h3>
+          <p>All settings persisted to MongoDB. Hot-reload configs without restarting the bot.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-button-pending-line"></i></div>
+          <h3>Interactive Buttons</h3>
+          <p>Native WhatsApp interactive buttons — quick replies, CTAs, selects via gifted-btns.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-device-line"></i></div>
+          <h3>Multi-Session</h3>
+          <p>Run multiple bot sessions simultaneously from a single deployment instance.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon"><i class="ri-settings-3-line"></i></div>
+          <h3>Web Dashboard</h3>
+          <p>Built-in Express web dashboard to manage settings, sessions and view status.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</section>
+  <!-- ═══════════════════════ QUICK LINKS ═══════════════════════ -->
+  <section class="links section">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Quick Access</span>
+        <h2 class="section__title">Get <span class="gradient-text">Connected</span></h2>
+      </div>
+      <div class="links__grid">
+        <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank" class="link-card link-card--green">
+          <i class="ri-whatsapp-fill"></i>
+          <div>
+            <h4>Join WhatsApp Group</h4>
+            <p>Community support &amp; updates</p>
+          </div>
+          <i class="ri-arrow-right-line link-card__arrow"></i>
+        </a>
+        <a href="https://whatsapp.com/channel/120363352258980163" target="_blank" class="link-card link-card--blue">
+          <i class="ri-megaphone-fill"></i>
+          <div>
+            <h4>View Official Channel</h4>
+            <p>Follow for announcements</p>
+          </div>
+          <i class="ri-arrow-right-line link-card__arrow"></i>
+        </a>
+        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank" class="link-card link-card--purple">
+          <i class="ri-github-fill"></i>
+          <div>
+            <h4>Official Repository</h4>
+            <p>itxxwasi/wasi-md-v7</p>
+          </div>
+          <i class="ri-arrow-right-line link-card__arrow"></i>
+        </a>
+        <a href="https://wasi-bot-web.vercel.app/" target="_blank" class="link-card link-card--cyan">
+          <i class="ri-global-line"></i>
+          <div>
+            <h4>Bot Dashboard</h4>
+            <p>wasi-bot-web.vercel.app</p>
+          </div>
+          <i class="ri-arrow-right-line link-card__arrow"></i>
+        </a>
+      </div>
+    </div>
+  </section>
 
-<section class="contact" id="contact">
-  <div class="center-text" data-aos="fade-down">
-    <h2>Contact <span>me</span></h2>
-  </div>
-  <div class="contact-form" data-aos="zoom-in">
-    <form action="">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Email Address..." required>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here." required></textarea>
-      <input type="submit" value="Submit" class="send-btn">
-    </form>
-  </div>
-</section>
+  <!-- ═══════════════════════ PAIRING ═══════════════════════ -->
+  <section class="pair section">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Get Session ID</span>
+        <h2 class="section__title">Connect Your <span class="gradient-text">Account</span></h2>
+        <p class="section__desc">Use the bot's web dashboard to pair your WhatsApp number and get a session ID.</p>
+      </div>
+      <div class="pair__cards">
+        <a href="https://wasi-bot-web.vercel.app/" target="_blank" class="pair-card">
+          <div class="pair-card__icon"><i class="ri-qr-code-line"></i></div>
+          <h3>QR Code Scan</h3>
+          <p>Open the dashboard and scan the QR code with your WhatsApp linked devices.</p>
+          <span class="pair-card__btn">Open Dashboard <i class="ri-external-link-line"></i></span>
+        </a>
+        <div class="pair-card pair-card--highlight">
+          <div class="pair-card__icon"><i class="ri-smartphone-line"></i></div>
+          <h3>Pair Code</h3>
+          <p>Enter your phone number in the dashboard to receive an 8-digit pairing code instantly.</p>
+          <a href="https://wasi-bot-web.vercel.app/" target="_blank" class="pair-card__btn">Get Pair Code <i
+              class="ri-external-link-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div class="footer">
-  <div class="copyright">
-    <p><a href="https://web.giftedtechnexus.co.ke" target="_blank">©2024 WASI TECH</a>, All Rights Reserved.</p>
-  </div>
-  <a href="#home" class="scroll-top">
-    <i class="ri-arrow-up-s-fill"></i>
+  <!-- ═══════════════════════ DEPLOY ═══════════════════════ -->
+  <section class="deploy section" id="deploy">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">One-Click Deploy</span>
+        <h2 class="section__title">Choose Your <span class="gradient-text">Platform</span></h2>
+        <p class="section__desc">Fork the repo first, then deploy on any platform below. All free tiers supported.</p>
+      </div>
+      <div class="deploy__note">
+        <i class="ri-information-line"></i>
+        <span>Ensure you have <strong>forked</strong> <a href="https://github.com/Itxxwasi/WASI-MD-V7"
+            target="_blank">itxxwasi/wasi-md-v7</a> before deploying. Do not change the repo name.</span>
+      </div>
+      <div class="deploy__grid">
+
+        <!-- Heroku -->
+        <div class="deploy-card">
+          <div class="deploy-card__logo deploy-card__logo--heroku">
+            <i class="ri-server-line"></i>
+          </div>
+          <div class="deploy-card__badge">Most Popular</div>
+          <h3>Heroku</h3>
+          <p>The easiest one-click deployment. Free dynos available. Best for beginners.</p>
+          <ul class="deploy-card__features">
+            <li><i class="ri-check-line"></i> One-click deploy</li>
+            <li><i class="ri-check-line"></i> Free tier available</li>
+            <li><i class="ri-check-line"></i> Auto-scaling</li>
+          </ul>
+          <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FItxxwasi%2FWASI-MD-V7"
+            target="_blank" class="deploy-card__btn">
+            Deploy to Heroku <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
+
+        <!-- Railway -->
+        <div class="deploy-card">
+          <div class="deploy-card__logo deploy-card__logo--railway">
+            <i class="ri-train-line"></i>
+          </div>
+          <h3>Railway</h3>
+          <p>Blazing fast deployments with generous free tier. Perfect for always-on bots.</p>
+          <ul class="deploy-card__features">
+            <li><i class="ri-check-line"></i> $5 free credits/month</li>
+            <li><i class="ri-check-line"></i> Auto deploy on push</li>
+            <li><i class="ri-check-line"></i> GitHub integration</li>
+          </ul>
+          <a href="https://railway.app/template/tM2McB?referralCode=v7Xehd" target="_blank" class="deploy-card__btn">
+            Deploy to Railway <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
+
+        <!-- Koyeb -->
+        <div class="deploy-card">
+          <div class="deploy-card__logo deploy-card__logo--koyeb">
+            <i class="ri-cloud-line"></i>
+          </div>
+          <h3>Koyeb</h3>
+          <p>Serverless platform with a permanent free tier. Great uptime and performance.</p>
+          <ul class="deploy-card__features">
+            <li><i class="ri-check-line"></i> Permanent free tier</li>
+            <li><i class="ri-check-line"></i> Global edge network</li>
+            <li><i class="ri-check-line"></i> Auto HTTPS</li>
+          </ul>
+          <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/Itxxwasi/WASI-MD-V7&branch=main&name=wasi-md-v7"
+            target="_blank" class="deploy-card__btn">
+            Deploy to Koyeb <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
+
+        <!-- Render -->
+        <div class="deploy-card">
+          <div class="deploy-card__logo deploy-card__logo--render">
+            <i class="ri-layout-masonry-line"></i>
+          </div>
+          <h3>Render</h3>
+          <p>Modern cloud with free web services. Supports persistent disk and background workers.</p>
+          <ul class="deploy-card__features">
+            <li><i class="ri-check-line"></i> Free web service</li>
+            <li><i class="ri-check-line"></i> Persistent storage</li>
+            <li><i class="ri-check-line"></i> Zero DevOps</li>
+          </ul>
+          <a href="https://render.com/deploy?repo=https://github.com/Itxxwasi/WASI-MD-V7" target="_blank"
+            class="deploy-card__btn">
+            Deploy to Render <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
+
+        <!-- VPS / Manual -->
+        <div class="deploy-card">
+          <div class="deploy-card__logo deploy-card__logo--vps">
+            <i class="ri-terminal-box-line"></i>
+          </div>
+          <h3>VPS / Manual</h3>
+          <p>Run on any Linux VPS with Node.js 20+. Full control over your environment.</p>
+          <ul class="deploy-card__features">
+            <li><i class="ri-check-line"></i> Full root access</li>
+            <li><i class="ri-check-line"></i> PM2 process manager</li>
+            <li><i class="ri-check-line"></i> Docker support</li>
+          </ul>
+          <a href="https://github.com/Itxxwasi/WASI-MD-V7#readme" target="_blank" class="deploy-card__btn">
+            View Instructions <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
+  <section class="about section" id="about">
+    <div class="container about__inner">
+      <div class="about__img-wrap">
+        <div class="about__img-ring"></div>
+        <img src="https://github.com/Itxxwasi.png" alt="Waseem / Itxxwasi" class="about__img" />
+        <div class="about__img-badge">
+          <i class="ri-code-s-slash-line"></i> Dev
+        </div>
+      </div>
+      <div class="about__content">
+        <span class="section__tag">Meet the Dev</span>
+        <h2 class="section__title">Hi, I'm <span class="gradient-text">Mr Wasi</span></h2>
+        <p class="about__bio">
+          Self-taught full-stack developer from Islamabad, Pakistan. I've been building WhatsApp bots
+          since 2023 — WASI-MD-V7 is the most advanced version yet, built with 3 years of lessons learned.
+        </p>
+        <div class="about__info">
+          <div class="about__info-item">
+            <i class="ri-map-pin-line"></i>
+            <span>Islamabad, Pakistan</span>
+          </div>
+          <div class="about__info-item">
+            <i class="ri-mail-line"></i>
+            <span>wasixml@gmail.com</span>
+          </div>
+          <div class="about__info-item">
+            <i class="ri-whatsapp-line"></i>
+            <a href="https://wa.me/263788049675" target="_blank">+263788049675</a>
+          </div>
+          <div class="about__info-item">
+            <i class="ri-time-line"></i>
+            <span>3+ Years Experience</span>
+          </div>
+        </div>
+        <div class="about__socials">
+          <a href="https://github.com/Itxxwasi" target="_blank" class="social-btn">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a href="https://www.facebook.com/chwaseem11bc" target="_blank" class="social-btn">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.instagram.com/itx_mee_wasi" target="_blank" class="social-btn">
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a href="https://www.youtube.com/@wasitech1" target="_blank" class="social-btn">
+            <i class="ri-youtube-fill"></i>
+          </a>
+          <a href="https://wa.me/263788049675" target="_blank" class="social-btn">
+            <i class="ri-whatsapp-fill"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">Get In Touch</span>
+        <h2 class="section__title">Contact <span class="gradient-text">Me</span></h2>
+        <p class="section__desc">Have a bug report, feature request or just want to say hi?</p>
+      </div>
+      <div class="contact__wrapper">
+        <div class="contact__info">
+          <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank" class="contact__channel">
+            <i class="ri-whatsapp-fill"></i>
+            <div>
+              <strong>WhatsApp Group</strong>
+              <span>Fastest response · Community support</span>
+            </div>
+            <i class="ri-arrow-right-line"></i>
+          </a>
+          <a href="https://github.com/Itxxwasi/WASI-MD-V7/issues" target="_blank" class="contact__channel">
+            <i class="ri-github-fill"></i>
+            <div>
+              <strong>GitHub Issues</strong>
+              <span>Bug reports &amp; feature requests</span>
+            </div>
+            <i class="ri-arrow-right-line"></i>
+          </a>
+          <a href="mailto:wasixml@gmail.com" class="contact__channel">
+            <i class="ri-mail-fill"></i>
+            <div>
+              <strong>Email</strong>
+              <span>wasixml@gmail.com</span>
+            </div>
+            <i class="ri-arrow-right-line"></i>
+          </a>
+        </div>
+        <form class="contact__form" id="contact-form">
+          <div class="form__group">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form__group">
+            <input type="email" id="email" placeholder="Email Address" required />
+            <label for="email">Email Address</label>
+          </div>
+          <div class="form__group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            <i class="ri-send-plane-fill"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#home" class="footer__logo">WA<span>SI</span>-MD-V7</a>
+      <div class="footer__links">
+        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank">GitHub</a>
+        <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank">Group</a>
+        <a href="https://whatsapp.com/channel/120363352258980163" target="_blank">Channel</a>
+        <a href="https://wasi-bot-web.vercel.app/" target="_blank">Dashboard</a>
+      </div>
+      <p class="footer__copy">© 2026 WASI TECH · All Rights Reserved · Made with ❤️ in Pakistan</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="scroll-top" id="scroll-top">
+    <i class="ri-arrow-up-line"></i>
   </a>
-</div>
-	   <script>
- document.onkeydown = function(e) {
-        if (e.ctrlKey && 
-            (e.keyCode === 67 ||
-            e.keyCode === 97 ||
-            e.keyCode === 65 ||
-             e.keyCode === 99 || 
-             e.keyCode === 86 || 
-             e.keyCode === 86 || 
-             e.keyCode === 85 ||
-             e.keyCode === 105 ||
-             e.keyCode === 73 ||
-             e.keyCode === 117)) {
-            alert('Not Allowed!');
-            return false;
-        } else {
-            return true;
-        }
-};
-    </script>
-<script src="./script.js"></script>
-  
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({
-offset:300,
-duration:1400,
-  });
-</script>
 
+  <script src="script.js"></script>
 </body>
-	    </html>
+
+</html>
