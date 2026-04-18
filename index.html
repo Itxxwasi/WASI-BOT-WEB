@@ -4,479 +4,158 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WASI-MD-V7 | Advanced WhatsApp Bot</title>
+  <title>Muhammad Waseem | Resume</title>
   <meta name="description"
-    content="WASI-MD-V7 — The most powerful open-source WhatsApp bot built with Baileys & Node.js. Deploy in seconds on Heroku, Railway, Koyeb, Render and more." />
-  <meta property="og:title" content="WASI-MD-V7 | Advanced WhatsApp Bot" />
+    content="Portfolio of Muhammad Waseem, backend developer from Islamabad with experience in scalable systems, WhatsApp bot development, and backend APIs." />
+  <meta property="og:title" content="Muhammad Waseem | Backend Developer" />
   <meta property="og:description"
-    content="Deploy the most powerful WhatsApp bot now — free, open-source, and feature-packed." />
+    content="Resume and portfolio of Muhammad Waseem - backend developer with 3+ years of practical experience." />
   <meta property="og:image" content="https://github.com/Itxxwasi.png" />
   <link rel="icon" href="https://github.com/Itxxwasi.png" type="image/png" />
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700;800&family=Manrope:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
-  <!-- Icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
-  <!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
-  <header id="header">
-    <nav class="nav container">
-      <a href="#home" class="nav__logo">
-        <img src="https://github.com/Itxxwasi.png" alt="WASI" />
-        WA<span>SI</span>-MD
+  <div class="site-noise" aria-hidden="true"></div>
+  <header id="header" class="header">
+    <nav class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand__dot"></span>
+        Muhammad Waseem
       </a>
-      <ul class="nav__list" id="nav-list">
-        <li><a href="#home" class="nav__link">Home</a></li>
-        <li><a href="#features" class="nav__link">Features</a></li>
-        <li><a href="#deploy" class="nav__link">Deploy</a></li>
-        <li><a href="#about" class="nav__link">About</a></li>
-        <li><a href="#contact" class="nav__link">Contact</a></li>
-      </ul>
-      <div class="nav__actions">
-        <a href="https://whatsapp.com/channel/120363352258980163" target="_blank" class="btn btn--outline">
-          <i class="ri-megaphone-line"></i> Channel
-        </a>
-        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank" class="btn btn--primary">
-          <i class="ri-github-fill"></i> GitHub
-        </a>
-      </div>
-      <button class="nav__toggle" id="nav-toggle" aria-label="Menu">
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
         <i class="ri-menu-3-line"></i>
       </button>
+      <ul class="nav__list" id="nav-list">
+        <li><a class="nav__link active" href="index.html">Resume</a></li>
+        <li><a class="nav__link" href="projects.html">Projects</a></li>
+        <li><a class="nav__link" href="journey.html">Journey</a></li>
+        <li><a class="nav__link" href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <!-- ═══════════════════════ HERO ═══════════════════════ -->
-  <section class="hero" id="home">
-    <div class="hero__bg">
-      <div class="hero__orb hero__orb--1"></div>
-      <div class="hero__orb hero__orb--2"></div>
-      <div class="hero__orb hero__orb--3"></div>
-      <div class="hero__grid"></div>
-    </div>
-    <div class="container hero__content">
-      <div class="hero__badge">
-        <i class="ri-checkbox-circle-fill"></i>
-        Version 7.0 — Now Live
-      </div>
-      <h1 class="hero__title">
-        The Most Powerful<br />
-        <span class="gradient-text">WhatsApp Bot</span><br />
-        Ever Built
-      </h1>
-      <p class="hero__desc">
-        WASI-MD-V7 is a next-generation multi-device WhatsApp bot powered by Baileys &amp; Node.js.
-        Feature-rich, open-source, and deployable in seconds on any cloud platform.
-      </p>
-      <div class="hero__actions">
-        <a href="#deploy" class="btn btn--primary btn--lg">
-          <i class="ri-rocket-line"></i> Deploy Now
-        </a>
-        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank" class="btn btn--glass btn--lg">
-          <i class="ri-github-fill"></i> View Source
-        </a>
-        <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank" class="btn btn--glass btn--lg">
-          <i class="ri-whatsapp-fill"></i> Join Group
-        </a>
-      </div>
-      <div class="hero__stats">
-        <div class="stat">
-          <span class="stat__num">120+</span>
-          <span class="stat__label">Commands</span>
-        </div>
-        <div class="stat__divider"></div>
-        <div class="stat">
-          <span class="stat__num">5</span>
-          <span class="stat__label">Deploy Platforms</span>
-        </div>
-        <div class="stat__divider"></div>
-        <div class="stat">
-          <span class="stat__num">v7.0</span>
-          <span class="stat__label">Latest Version</span>
-        </div>
-        <div class="stat__divider"></div>
-        <div class="stat">
-          <span class="stat__num">Free</span>
-          <span class="stat__label">Open Source</span>
-        </div>
-      </div>
-    </div>
-    <div class="hero__scroll">
-      <a href="#features"><i class="ri-arrow-down-line"></i></a>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════ FEATURES ═══════════════════════ -->
-  <section class="features section" id="features">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__tag">What's Inside</span>
-        <h2 class="section__title">Packed With <span class="gradient-text">Features</span></h2>
-        <p class="section__desc">Everything you need for a powerful WhatsApp bot, all in one package.</p>
-      </div>
-      <div class="features__grid">
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-ai-generate"></i></div>
-          <h3>AI Integration</h3>
-          <p>Powered by Google Gemini AI — ask anything, generate images, translate and more.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-video-download-line"></i></div>
-          <h3>Media Downloader</h3>
-          <p>Download from YouTube, TikTok, Instagram, Facebook, Pinterest and dozens more.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-group-line"></i></div>
-          <h3>Group Management</h3>
-          <p>Anti-link, anti-delete, welcome/goodbye, tag all, promote, demote and more.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-shield-check-line"></i></div>
-          <h3>Guardian System</h3>
-          <p>Anti-delete, anti-edit, anti-call, anti-bot and full message protection built-in.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-forward-end-line"></i></div>
-          <h3>Auto-Forward</h3>
-          <p>Smart auto-forward with custom captions, media filtering and queue management.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-database-2-line"></i></div>
-          <h3>MongoDB Powered</h3>
-          <p>All settings persisted to MongoDB. Hot-reload configs without restarting the bot.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-button-pending-line"></i></div>
-          <h3>Interactive Buttons</h3>
-          <p>Native WhatsApp interactive buttons — quick replies, CTAs, selects via gifted-btns.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-device-line"></i></div>
-          <h3>Multi-Session</h3>
-          <p>Run multiple bot sessions simultaneously from a single deployment instance.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><i class="ri-settings-3-line"></i></div>
-          <h3>Web Dashboard</h3>
-          <p>Built-in Express web dashboard to manage settings, sessions and view status.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════ QUICK LINKS ═══════════════════════ -->
-  <section class="links section">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__tag">Quick Access</span>
-        <h2 class="section__title">Get <span class="gradient-text">Connected</span></h2>
-      </div>
-      <div class="links__grid">
-        <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank" class="link-card link-card--green">
-          <i class="ri-whatsapp-fill"></i>
-          <div>
-            <h4>Join WhatsApp Group</h4>
-            <p>Community support &amp; updates</p>
-          </div>
-          <i class="ri-arrow-right-line link-card__arrow"></i>
-        </a>
-        <a href="https://whatsapp.com/channel/120363352258980163" target="_blank" class="link-card link-card--blue">
-          <i class="ri-megaphone-fill"></i>
-          <div>
-            <h4>View Official Channel</h4>
-            <p>Follow for announcements</p>
-          </div>
-          <i class="ri-arrow-right-line link-card__arrow"></i>
-        </a>
-        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank" class="link-card link-card--purple">
-          <i class="ri-github-fill"></i>
-          <div>
-            <h4>Official Repository</h4>
-            <p>itxxwasi/wasi-md-v7</p>
-          </div>
-          <i class="ri-arrow-right-line link-card__arrow"></i>
-        </a>
-        <a href="https://wasi-bot-web.vercel.app/" target="_blank" class="link-card link-card--cyan">
-          <i class="ri-global-line"></i>
-          <div>
-            <h4>Bot Dashboard</h4>
-            <p>wasi-bot-web.vercel.app</p>
-          </div>
-          <i class="ri-arrow-right-line link-card__arrow"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════ PAIRING ═══════════════════════ -->
-  <section class="pair section">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__tag">Get Session ID</span>
-        <h2 class="section__title">Connect Your <span class="gradient-text">Account</span></h2>
-        <p class="section__desc">Use the bot's web dashboard to pair your WhatsApp number and get a session ID.</p>
-      </div>
-      <div class="pair__cards">
-        <a href="https://wasi-bot-web.vercel.app/" target="_blank" class="pair-card">
-          <div class="pair-card__icon"><i class="ri-qr-code-line"></i></div>
-          <h3>QR Code Scan</h3>
-          <p>Open the dashboard and scan the QR code with your WhatsApp linked devices.</p>
-          <span class="pair-card__btn">Open Dashboard <i class="ri-external-link-line"></i></span>
-        </a>
-        <div class="pair-card pair-card--highlight">
-          <div class="pair-card__icon"><i class="ri-smartphone-line"></i></div>
-          <h3>Pair Code</h3>
-          <p>Enter your phone number in the dashboard to receive an 8-digit pairing code instantly.</p>
-          <a href="https://wasi-bot-web.vercel.app/" target="_blank" class="pair-card__btn">Get Pair Code <i
-              class="ri-external-link-line"></i></a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════ DEPLOY ═══════════════════════ -->
-  <section class="deploy section" id="deploy">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__tag">One-Click Deploy</span>
-        <h2 class="section__title">Choose Your <span class="gradient-text">Platform</span></h2>
-        <p class="section__desc">Fork the repo first, then deploy on any platform below. All free tiers supported.</p>
-      </div>
-      <div class="deploy__note">
-        <i class="ri-information-line"></i>
-        <span>Ensure you have <strong>forked</strong> <a href="https://github.com/Itxxwasi/WASI-MD-V7"
-            target="_blank">itxxwasi/wasi-md-v7</a> before deploying. Do not change the repo name.</span>
-      </div>
-      <div class="deploy__grid">
-
-        <!-- Heroku -->
-        <div class="deploy-card">
-          <div class="deploy-card__logo deploy-card__logo--heroku">
-            <i class="ri-server-line"></i>
-          </div>
-          <div class="deploy-card__badge">Most Popular</div>
-          <h3>Heroku</h3>
-          <p>The easiest one-click deployment. Free dynos available. Best for beginners.</p>
-          <ul class="deploy-card__features">
-            <li><i class="ri-check-line"></i> One-click deploy</li>
-            <li><i class="ri-check-line"></i> Free tier available</li>
-            <li><i class="ri-check-line"></i> Auto-scaling</li>
-          </ul>
-          <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FItxxwasi%2FWASI-MD-V7"
-            target="_blank" class="deploy-card__btn">
-            Deploy to Heroku <i class="ri-arrow-right-up-line"></i>
-          </a>
-        </div>
-
-        <!-- Railway -->
-        <div class="deploy-card">
-          <div class="deploy-card__logo deploy-card__logo--railway">
-            <i class="ri-train-line"></i>
-          </div>
-          <h3>Railway</h3>
-          <p>Blazing fast deployments with generous free tier. Perfect for always-on bots.</p>
-          <ul class="deploy-card__features">
-            <li><i class="ri-check-line"></i> $5 free credits/month</li>
-            <li><i class="ri-check-line"></i> Auto deploy on push</li>
-            <li><i class="ri-check-line"></i> GitHub integration</li>
-          </ul>
-          <a href="https://railway.app/template/tM2McB?referralCode=v7Xehd" target="_blank" class="deploy-card__btn">
-            Deploy to Railway <i class="ri-arrow-right-up-line"></i>
-          </a>
-        </div>
-
-        <!-- Koyeb -->
-        <div class="deploy-card">
-          <div class="deploy-card__logo deploy-card__logo--koyeb">
-            <i class="ri-cloud-line"></i>
-          </div>
-          <h3>Koyeb</h3>
-          <p>Serverless platform with a permanent free tier. Great uptime and performance.</p>
-          <ul class="deploy-card__features">
-            <li><i class="ri-check-line"></i> Permanent free tier</li>
-            <li><i class="ri-check-line"></i> Global edge network</li>
-            <li><i class="ri-check-line"></i> Auto HTTPS</li>
-          </ul>
-          <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/Itxxwasi/WASI-MD-V7&branch=main&name=wasi-md-v7"
-            target="_blank" class="deploy-card__btn">
-            Deploy to Koyeb <i class="ri-arrow-right-up-line"></i>
-          </a>
-        </div>
-
-        <!-- Render -->
-        <div class="deploy-card">
-          <div class="deploy-card__logo deploy-card__logo--render">
-            <i class="ri-layout-masonry-line"></i>
-          </div>
-          <h3>Render</h3>
-          <p>Modern cloud with free web services. Supports persistent disk and background workers.</p>
-          <ul class="deploy-card__features">
-            <li><i class="ri-check-line"></i> Free web service</li>
-            <li><i class="ri-check-line"></i> Persistent storage</li>
-            <li><i class="ri-check-line"></i> Zero DevOps</li>
-          </ul>
-          <a href="https://render.com/deploy?repo=https://github.com/Itxxwasi/WASI-MD-V7" target="_blank"
-            class="deploy-card__btn">
-            Deploy to Render <i class="ri-arrow-right-up-line"></i>
-          </a>
-        </div>
-
-        <!-- VPS / Manual -->
-        <div class="deploy-card">
-          <div class="deploy-card__logo deploy-card__logo--vps">
-            <i class="ri-terminal-box-line"></i>
-          </div>
-          <h3>VPS / Manual</h3>
-          <p>Run on any Linux VPS with Node.js 20+. Full control over your environment.</p>
-          <ul class="deploy-card__features">
-            <li><i class="ri-check-line"></i> Full root access</li>
-            <li><i class="ri-check-line"></i> PM2 process manager</li>
-            <li><i class="ri-check-line"></i> Docker support</li>
-          </ul>
-          <a href="https://github.com/Itxxwasi/WASI-MD-V7#readme" target="_blank" class="deploy-card__btn">
-            View Instructions <i class="ri-arrow-right-up-line"></i>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════ ABOUT ═══════════════════════ -->
-  <section class="about section" id="about">
-    <div class="container about__inner">
-      <div class="about__img-wrap">
-        <div class="about__img-ring"></div>
-        <img src="https://github.com/Itxxwasi.png" alt="Waseem / Itxxwasi" class="about__img" />
-        <div class="about__img-badge">
-          <i class="ri-code-s-slash-line"></i> Dev
-        </div>
-      </div>
-      <div class="about__content">
-        <span class="section__tag">Meet the Dev</span>
-        <h2 class="section__title">Hi, I'm <span class="gradient-text">Mr Wasi</span></h2>
-        <p class="about__bio">
-          Self-taught full-stack developer from Islamabad, Pakistan. I've been building WhatsApp bots
-          since 2023 — WASI-MD-V7 is the most advanced version yet, built with 3 years of lessons learned.
+  <main>
+    <section class="hero section container">
+      <div class="hero__left reveal">
+        <p class="eyebrow">Backend Developer | Islamabad, Pakistan</p>
+        <h1>
+          Building reliable backend systems,
+          <span class="ink">automation tools</span>,
+          and real-world applications.
+        </h1>
+        <p class="hero__summary">
+          Backend developer with 3+ years of experience in WhatsApp bot engineering, backend architecture,
+          and API systems. Strong focus on performance, reliability, and practical solutions.
         </p>
-        <div class="about__info">
-          <div class="about__info-item">
-            <i class="ri-map-pin-line"></i>
-            <span>Islamabad, Pakistan</span>
-          </div>
-          <div class="about__info-item">
-            <i class="ri-mail-line"></i>
-            <span>wasixml@gmail.com</span>
-          </div>
-          <div class="about__info-item">
-            <i class="ri-whatsapp-line"></i>
-            <a href="https://wa.me/263788049675" target="_blank">+263788049675</a>
-          </div>
-          <div class="about__info-item">
-            <i class="ri-time-line"></i>
-            <span>3+ Years Experience</span>
-          </div>
-        </div>
-        <div class="about__socials">
-          <a href="https://github.com/Itxxwasi" target="_blank" class="social-btn">
-            <i class="ri-github-fill"></i>
-          </a>
-          <a href="https://www.facebook.com/chwaseem11bc" target="_blank" class="social-btn">
-            <i class="ri-facebook-fill"></i>
-          </a>
-          <a href="https://www.instagram.com/itx_mee_wasi" target="_blank" class="social-btn">
-            <i class="ri-instagram-fill"></i>
-          </a>
-          <a href="https://www.youtube.com/@wasitech1" target="_blank" class="social-btn">
-            <i class="ri-youtube-fill"></i>
-          </a>
-          <a href="https://wa.me/263788049675" target="_blank" class="social-btn">
-            <i class="ri-whatsapp-fill"></i>
-          </a>
+        <div class="hero__cta">
+          <a class="btn btn--solid" href="projects.html"><i class="ri-code-box-line"></i> View Projects</a>
+          <a class="btn btn--ghost" href="https://github.com/Itxxwasi" target="_blank" rel="noopener"><i
+              class="ri-github-fill"></i> GitHub</a>
         </div>
       </div>
-    </div>
-  </section>
+      <div class="hero__right reveal reveal--delay-1">
+        <article class="card profile-card">
+          <div class="profile-card__avatar">
+            <img src="https://github.com/Itxxwasi.png" alt="Muhammad Waseem GitHub Profile" />
+            <a href="https://github.com/Itxxwasi" target="_blank" rel="noopener">@Itxxwasi</a>
+          </div>
+          <h2>Quick Info</h2>
+          <ul>
+            <li><span>Name</span><strong>Muhammad Waseem</strong></li>
+            <li><span>Age</span><strong>22</strong></li>
+            <li><span>Email</span><strong><a href="mailto:mrvasi.dev@gmail.com">mrvasi.dev@gmail.com</a></strong></li>
+            <li><span>Phone</span><strong><a href="tel:+923192173398">+92 319 2173398</a></strong></li>
+            <li><span>Location</span><strong>Islamabad 44040, Pakistan</strong></li>
+            <li><span>Primary Brand</span><strong>WASI BOT WEB</strong></li>
+          </ul>
+        </article>
+      </div>
+    </section>
 
-  <!-- ═══════════════════════ CONTACT ═══════════════════════ -->
-  <section class="contact section" id="contact">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__tag">Get In Touch</span>
-        <h2 class="section__title">Contact <span class="gradient-text">Me</span></h2>
-        <p class="section__desc">Have a bug report, feature request or just want to say hi?</p>
+    <section class="section container">
+      <div class="section__title-wrap reveal">
+        <p class="eyebrow">Resume Snapshot</p>
+        <h2>Professional Experience</h2>
       </div>
-      <div class="contact__wrapper">
-        <div class="contact__info">
-          <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank" class="contact__channel">
-            <i class="ri-whatsapp-fill"></i>
-            <div>
-              <strong>WhatsApp Group</strong>
-              <span>Fastest response · Community support</span>
-            </div>
-            <i class="ri-arrow-right-line"></i>
-          </a>
-          <a href="https://github.com/Itxxwasi/WASI-MD-V7/issues" target="_blank" class="contact__channel">
-            <i class="ri-github-fill"></i>
-            <div>
-              <strong>GitHub Issues</strong>
-              <span>Bug reports &amp; feature requests</span>
-            </div>
-            <i class="ri-arrow-right-line"></i>
-          </a>
-          <a href="mailto:wasixml@gmail.com" class="contact__channel">
-            <i class="ri-mail-fill"></i>
-            <div>
-              <strong>Email</strong>
-              <span>wasixml@gmail.com</span>
-            </div>
-            <i class="ri-arrow-right-line"></i>
-          </a>
-        </div>
-        <form class="contact__form" id="contact-form">
-          <div class="form__group">
-            <input type="text" id="name" placeholder="Your Name" required />
-            <label for="name">Your Name</label>
-          </div>
-          <div class="form__group">
-            <input type="email" id="email" placeholder="Email Address" required />
-            <label for="email">Email Address</label>
-          </div>
-          <div class="form__group">
-            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
-            <label for="message">Your Message</label>
-          </div>
-          <button type="submit" class="btn btn--primary btn--full">
-            <i class="ri-send-plane-fill"></i> Send Message
-          </button>
-        </form>
+      <div class="timeline reveal reveal--delay-1">
+        <article class="timeline__item card">
+          <p class="timeline__meta">Jan 2025 - Apr 2026</p>
+          <h3>IT Support, D Watson</h3>
+          <p>
+            Provided technical support, resolved system issues, and ensured smooth IT operations. Handled
+            troubleshooting tasks and maintained core IT infrastructure.
+          </p>
+        </article>
+        <article class="timeline__item card">
+          <p class="timeline__meta">Feb 2024 - Dec 2024</p>
+          <h3>Social Media Handling, Socializer</h3>
+          <p>
+            Managed social media platforms, improved engagement, and planned content strategies using analytics and
+            performance insights.
+          </p>
+        </article>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+    <section class="section container">
+      <div class="grid grid--2">
+        <article class="card reveal">
+          <div class="section__title-wrap">
+            <p class="eyebrow">Education</p>
+            <h2>Academic Journey</h2>
+          </div>
+          <ul class="list">
+            <li>
+              <h3>Virtual University Pakistan, Islamabad</h3>
+              <p>Software Engineering (Started in 2026)</p>
+            </li>
+            <li>
+              <h3>FG Degree College Peshawar Cantt</h3>
+              <p>ICS, May 2022 - May 2024</p>
+            </li>
+            <li>
+              <h3>FG Public School</h3>
+              <p>Matric, May 2020 - Apr 2022</p>
+            </li>
+          </ul>
+        </article>
+
+        <article class="card reveal reveal--delay-1">
+          <div class="section__title-wrap">
+            <p class="eyebrow">Core Skills</p>
+            <h2>What I Focus On</h2>
+          </div>
+          <div class="skill-chips">
+            <span>Backend Architecture</span>
+            <span>REST API Systems</span>
+            <span>WhatsApp Bot Development</span>
+            <span>Automation Tools</span>
+            <span>Scalable System Design</span>
+            <span>Performance Optimization</span>
+            <span>Production Reliability</span>
+            <span>Troubleshooting</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
   <footer class="footer">
     <div class="container footer__inner">
-      <a href="#home" class="footer__logo">WA<span>SI</span>-MD-V7</a>
-      <div class="footer__links">
-        <a href="https://github.com/Itxxwasi/WASI-MD-V7" target="_blank">GitHub</a>
-        <a href="https://chat.whatsapp.com/C35U06os2PQ9AZpv6pnDpU" target="_blank">Group</a>
-        <a href="https://whatsapp.com/channel/120363352258980163" target="_blank">Channel</a>
-        <a href="https://wasi-bot-web.vercel.app/" target="_blank">Dashboard</a>
+      <p>© 2026 Muhammad Waseem. All rights reserved.</p>
+      <div>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
       </div>
-      <p class="footer__copy">© 2026 WASI TECH · All Rights Reserved · Made with ❤️ in Pakistan</p>
     </div>
   </footer>
-
-  <a href="#home" class="scroll-top" id="scroll-top">
-    <i class="ri-arrow-up-line"></i>
-  </a>
 
   <script src="script.js"></script>
 </body>
